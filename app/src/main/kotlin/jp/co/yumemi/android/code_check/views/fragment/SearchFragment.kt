@@ -1,19 +1,16 @@
 /*
  * Copyright © 2021 YUMEMI Inc. All rights reserved.
  */
-package jp.co.yumemi.android.code_check
+package jp.co.yumemi.android.code_check.views.fragment
 
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.*
-import jp.co.yumemi.android.code_check.adapter.SearchAdapter
-import jp.co.yumemi.android.code_check.data.Item
+import jp.co.yumemi.android.code_check.OneViewModel
+import jp.co.yumemi.android.code_check.R
+import jp.co.yumemi.android.code_check.views.adapter.SearchAdapter
 import jp.co.yumemi.android.code_check.databinding.FragmentSearchBinding
 
 class SearchFragment: Fragment(R.layout.fragment_search){

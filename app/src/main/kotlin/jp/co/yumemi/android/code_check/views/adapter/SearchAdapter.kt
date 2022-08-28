@@ -1,4 +1,4 @@
-package jp.co.yumemi.android.code_check.adapter
+package jp.co.yumemi.android.code_check.views.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
