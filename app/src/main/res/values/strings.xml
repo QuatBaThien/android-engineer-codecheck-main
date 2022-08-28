@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android Engineer CodeCheck</string>
+    <string name="searchInputText_hint">GitHub のリポジトリを検索できるよー</string>
+    <string name="written_language">Written in %s</string>
+    <string name="error_network_title">ネットワークに接続できません</string>
+    <string name="error_network_content">一時的な問題が発生しました。 大変お手数ですがアプリを再起動するか、しばらく時間をおいてから再度お試しください。</string>
+    <string name="close_app">アプリを閉じる</string>
+</resources>
